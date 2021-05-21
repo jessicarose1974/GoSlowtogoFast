@@ -16,10 +16,15 @@ This is an R Markdown document. Markdown is a simple formatting syntax for autho
 
 You can embed an R code chunk like this:
 
-```{r cars}
-summary(Orange)
-fit <- lm(dist ~ speed, data = cars)
-fit
+```{r}
+Table_MOH_Israel <- data.frame(
+  DATE = as.Date(c("12/21/20", "1/1/21", "1/7/21", "1/14/21", "1/21/21", "1/28/21", "2/1/21", "2/7/21", "2/14/21", "2/21/21", "2/28/21", "3/1/21", "3/7/21", "3/14/21", "3/21/21", "3/31/21", "4/1/21", "4/7/21"), "%m/%d/%y"),
+  FV = as.numeric(c("32300", "1061284", "1777830", "2079214", "2495619", "2958395", "3184630", "3496161", "3912986", "4358838", "4717694", "4763252", "4944765", "5084849", "5181825", "5248456", "5256417", "5297548")),
+  DEATH = as.numeric(c("3101", "3358", "3493", "3769", "4142", "4512", "4744", "5056", "5350", "5576", "5741", "5758", "5889", "5997", "6085", "6185", "6216", "6262")),
+
+  stringsAsFactors = FALSE
+)
+head(Table_MOH_Israel)
 ```
 
 # Including Plots
@@ -27,7 +32,7 @@ fit
 You can also embed plots.
 
 ```{r echo=FALSE}
-library(ggplot2)
-oplot <- ggplot(Orange, aes(x = age, y = circumference, colour = Tree)) + geom_point() + geom_line() + theme_bw()
-oplot
+library("ggplot2")
+Table_MOH_Israel_plot_D <- ggplot(data = Table_MOH_Israel, aes(x = DATE, y = DEATH)) + geom_line(data = Table_MOH_Israel, aes(x = DATE, y = DEATH, colour = "DEATH"), colour = "red", size = 2) + geom_point(data = Table_MOH_Israel, aes(DATE, DEATH, colour = "DEATH"), colour = "red", size = 5) + xlab("DATE") +  ylab("NUMBER OF DEATHS") + labs(title = "Deaths versus fully vaxxed population in Israel", caption = "Data source: ISRAEL MINISTRY OF HEALTH") + theme(axis.text.y = element_text(colour = "black", size = 14)) + theme(axis.text.x = element_text(colour = "black", angle=15,vjust=0.5,hjust=0.5, size = 12)) + theme(panel.background = element_rect(fill = "black")) + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank()) + theme(legend.title=element_blank()) + scale_x_continuous(breaks = round(seq(min(Table_MOH_Israel$DATE), max(Table_MOH_Israel$DATE), by = 10),0.1))
+Table_MOH_Israel_plot_D
 ```

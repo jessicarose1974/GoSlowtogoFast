@@ -13,26 +13,24 @@ tags: ["R Markdown", "plot", "regression"]
 <h1>R Markdown</h1>
 <p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
 <p>You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(Orange)
-##  Tree       age         circumference  
-##  3:7   Min.   : 118.0   Min.   : 30.0  
-##  1:7   1st Qu.: 484.0   1st Qu.: 65.5  
-##  5:7   Median :1004.0   Median :115.0  
-##  2:7   Mean   : 922.1   Mean   :115.9  
-##  4:7   3rd Qu.:1372.0   3rd Qu.:161.5  
-##        Max.   :1582.0   Max.   :214.0
-fit &lt;- lm(dist ~ speed, data = cars)
-fit
-## 
-## Call:
-## lm(formula = dist ~ speed, data = cars)
-## 
-## Coefficients:
-## (Intercept)        speed  
-##     -17.579        3.932</code></pre>
+<pre class="r"><code>Table_MOH_Israel &lt;- data.frame(
+  DATE = as.Date(c(&quot;12/21/20&quot;, &quot;1/1/21&quot;, &quot;1/7/21&quot;, &quot;1/14/21&quot;, &quot;1/21/21&quot;, &quot;1/28/21&quot;, &quot;2/1/21&quot;, &quot;2/7/21&quot;, &quot;2/14/21&quot;, &quot;2/21/21&quot;, &quot;2/28/21&quot;, &quot;3/1/21&quot;, &quot;3/7/21&quot;, &quot;3/14/21&quot;, &quot;3/21/21&quot;, &quot;3/31/21&quot;, &quot;4/1/21&quot;, &quot;4/7/21&quot;), &quot;%m/%d/%y&quot;),
+  FV = as.numeric(c(&quot;32300&quot;, &quot;1061284&quot;, &quot;1777830&quot;, &quot;2079214&quot;, &quot;2495619&quot;, &quot;2958395&quot;, &quot;3184630&quot;, &quot;3496161&quot;, &quot;3912986&quot;, &quot;4358838&quot;, &quot;4717694&quot;, &quot;4763252&quot;, &quot;4944765&quot;, &quot;5084849&quot;, &quot;5181825&quot;, &quot;5248456&quot;, &quot;5256417&quot;, &quot;5297548&quot;)),
+  DEATH = as.numeric(c(&quot;3101&quot;, &quot;3358&quot;, &quot;3493&quot;, &quot;3769&quot;, &quot;4142&quot;, &quot;4512&quot;, &quot;4744&quot;, &quot;5056&quot;, &quot;5350&quot;, &quot;5576&quot;, &quot;5741&quot;, &quot;5758&quot;, &quot;5889&quot;, &quot;5997&quot;, &quot;6085&quot;, &quot;6185&quot;, &quot;6216&quot;, &quot;6262&quot;)),
+
+  stringsAsFactors = FALSE
+)
+head(Table_MOH_Israel)
+##         DATE      FV DEATH
+## 1 2020-12-21   32300  3101
+## 2 2021-01-01 1061284  3358
+## 3 2021-01-07 1777830  3493
+## 4 2021-01-14 2079214  3769
+## 5 2021-01-21 2495619  4142
+## 6 2021-01-28 2958395  4512</code></pre>
 </div>
 <div id="including-plots" class="section level1">
 <h1>Including Plots</h1>
 <p>You can also embed plots.</p>
-<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-2-1.png" width="672" /></p>
 </div>
