@@ -2,7 +2,7 @@
 widget: hero
 headless: true
 weight: 10
-title: Hugo Academic Starter
+title: VAERS analysis LIVE
 hero_media: hero-academic.png
 cta:
   label: '**Get Started**'
@@ -22,6 +22,6 @@ advanced:
   css_class: fullscreen
 ---
 
-**The FREE, Hugo-based open source website builder and template trusted by 500,000+ sites.**
+**THIS IS A WEBSITE THAT I DESIGNED TO ALLOW PEOPLE TO SEE UPDATED PLOTS GENERATED USING RSTUDIO OF VARIOUS VAERS VARIABLES.**
 
-**Build anything with widgets** - from landing pages, knowledge bases, and courses to academic resumés, conferences, and tech blogs.
+**PLEASE VISIT MY YOUTUBE** 
