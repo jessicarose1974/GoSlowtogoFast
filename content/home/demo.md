@@ -30,12 +30,6 @@ design:
 
 Welcome to the demo of the **VAERS**.
 
-[Explore similar templates](https://wowchemy.com/templates/)
-
-**Over 500,000 [Amazing Websites](https://wowchemy.com/) have Already Been Built with Wowchemy**
-
-**[Join](https://wowchemy.com/templates/) the Most Empowered Hugo Community**
-
 {{% callout note %}}
 If you don't know anything about Rstudio then start learning.  
 
