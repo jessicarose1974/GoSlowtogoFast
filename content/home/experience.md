@@ -25,7 +25,7 @@ experience:
   - title: Post Doctoral Researcher
     Institution: Technion Institute of Technology
     company_url: ''
-    company_logo: org-Technion
+    company_logo: 
     location: Israel
     date_start: '2016-10-01'
     date_end: '2020-01-01'
@@ -39,7 +39,7 @@ experience:
   - title: Post Doctoral Researcher
     company: Hebrew Univeristy of Jerusalem
     company_url: ''
-    company_logo: org-HUJI
+    company_logo: 
     location: Israel
     date_start: '2013-01-01'
     date_end: '2015-12-31'
