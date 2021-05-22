@@ -1,7 +1,7 @@
 theme: "starter-academic"
 # Configuration of Hugo
 
-title: Data and Stuff # Website name
+title: VAERS ANALYSIS # Website name
 baseurl: 'https://app.netlify.com/sites/goofy-girl-forever' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
