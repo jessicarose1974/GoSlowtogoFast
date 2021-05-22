@@ -31,7 +31,4 @@ design:
 Welcome to the demo of the **VAERS**.
 
 {{% callout note %}}
-If you don't know anything about Rstudio then start learning.  
-
-Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
-{{% /callout %}}
+If you don't know anything about Rstudio then start learning.
