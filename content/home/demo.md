@@ -12,8 +12,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 15
 
-title: Hugo Academic Theme Demo
-subtitle:
+title: WHAT YOU WILL LEARN 
+subtitle: WHAT THE ABSOLUTE NUMBERS OF VAERS VARIABLES SUCH AS DEATH COUNT CHANGE EVERY WEEK. 
 
 design:
   columns: "1"
@@ -28,7 +28,7 @@ design:
     padding: ["20px", "0", "20px", "0"]
 ---
 
-Welcome to the demo of the **academic resumé template** for Wowchemy, the Website Builder for Hugo.
+Welcome to the demo of the **VAERS**.
 
 [Explore similar templates](https://wowchemy.com/templates/)
 
@@ -37,7 +37,7 @@ Welcome to the demo of the **academic resumé template** for Wowchemy, the Websi
 **[Join](https://wowchemy.com/templates/) the Most Empowered Hugo Community**
 
 {{% callout note %}}
-This homepage section is an example of adding [elements](https://wowchemy.com/docs/content/writing-markdown-latex/) to the [*Blank* widget](https://wowchemy.com/docs/getting-started/page-builder/).
+If you don't know anything about Rstudio then start learning.  
 
 Backgrounds can be applied to any section. Here, the *background* option is set give an *image parallax* effect.
 {{% /callout %}}
