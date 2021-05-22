@@ -16,5 +16,5 @@ advanced:
 
 **THIS IS A WEBSITE THAT I DESIGNED TO ALLOW PEOPLE TO SEE UPDATED FIGURES OF VARIOUS VAERS VARIABLES.**
 
-**PLEASE VISIT MY YOUTUBE VIDEO THAT SUMMARIZES THE VAERS DATA FOR VACCINE CHOICE CANADA**
+**Please visit my website that summarizes the major findings in my study of the VAERS data.**
 https://www.youtube.com/watch?v=bMY2tdFNkRU
