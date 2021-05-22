@@ -1,7 +1,7 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
+title: "VAERS DATA ANALYSIS"
+author: "Jessica Rose"
+date: 2021-05-21
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -10,11 +10,9 @@ tags: ["R Markdown", "plot", "regression"]
 knitr::opts_chunk$set(collapse = TRUE)
 ```
 
-# R Markdown
+# R Markdown for VAERS
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
-
-You can embed an R code chunk like this:
+This is my R Markdown work.
 
 ```{r}
 Table_MOH_Israel <- data.frame(

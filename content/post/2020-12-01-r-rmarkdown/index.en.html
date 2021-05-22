@@ -1,7 +1,7 @@
 ---
-title: "Hello R Markdown"
-author: "Frida Gomam"
-date: 2020-12-01T21:13:14-05:00
+title: "VAERS DATA ANALYSIS"
+author: "Jessica Rose"
+date: 2021-05-21
 categories: ["R"]
 tags: ["R Markdown", "plot", "regression"]
 ---
@@ -9,10 +9,9 @@ tags: ["R Markdown", "plot", "regression"]
 <script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
 
 
-<div id="r-markdown" class="section level1">
-<h1>R Markdown</h1>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>You can embed an R code chunk like this:</p>
+<div id="r-markdown-for-vaers" class="section level1">
+<h1>R Markdown for VAERS</h1>
+<p>This is my R Markdown work.</p>
 <pre class="r"><code>Table_MOH_Israel &lt;- data.frame(
   DATE = as.Date(c(&quot;12/21/20&quot;, &quot;1/1/21&quot;, &quot;1/7/21&quot;, &quot;1/14/21&quot;, &quot;1/21/21&quot;, &quot;1/28/21&quot;, &quot;2/1/21&quot;, &quot;2/7/21&quot;, &quot;2/14/21&quot;, &quot;2/21/21&quot;, &quot;2/28/21&quot;, &quot;3/1/21&quot;, &quot;3/7/21&quot;, &quot;3/14/21&quot;, &quot;3/21/21&quot;, &quot;3/31/21&quot;, &quot;4/1/21&quot;, &quot;4/7/21&quot;), &quot;%m/%d/%y&quot;),
   FV = as.numeric(c(&quot;32300&quot;, &quot;1061284&quot;, &quot;1777830&quot;, &quot;2079214&quot;, &quot;2495619&quot;, &quot;2958395&quot;, &quot;3184630&quot;, &quot;3496161&quot;, &quot;3912986&quot;, &quot;4358838&quot;, &quot;4717694&quot;, &quot;4763252&quot;, &quot;4944765&quot;, &quot;5084849&quot;, &quot;5181825&quot;, &quot;5248456&quot;, &quot;5256417&quot;, &quot;5297548&quot;)),
